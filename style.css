@@ -34,4 +34,15 @@
 .card:hover {
     transform: rotateY(180deg);
 }
+h1 {
+    animation: move 5s linear alternate infinite;
+}
+@keyframes move {
+    from {
+        margin-left: 0px;
+    }
+    to {
+        margin-left: 500px;
+    }
+}
 
